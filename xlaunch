@@ -1,5 +1,6 @@
 #!/bin/bash
-export DISPLAY=localhost:0.0
+export DISPLAY=$1
+shift
 xlaunchthis=$1
 shift
 while [ "$1" != "" ]; do
